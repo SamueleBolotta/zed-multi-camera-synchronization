@@ -22,12 +22,12 @@
     Multi cameras sample showing how to open multiple ZED in one program
 """
 
-import pyzed.sl as sl  # Importing the ZED SDK
-import cv2  # Importing OpenCV for image display
-import numpy as np  # Importing NumPy for numerical operations
-import threading  # Importing threading for concurrent execution
-import time  # Importing time module for sleep functionality
-import signal  # Importing signal module to handle interrupts
+import pyzed.sl as sl 
+import cv2  
+import numpy as np  
+import threading  
+import time 
+import signal  
 
 # Global variables for storing camera instances, images, timestamps, and thread control
 zed_list = []
